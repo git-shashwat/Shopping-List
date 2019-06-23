@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+$baseSize: 16px;
+$theme-colors: (
+    "success": #28a745,
+    "danger": rgba(255,0,0,0.5),
+    "secondary": #f1f1f1e3,
+    "info": rgb(62, 193, 245),
+);
+#heading{
+    font-family: 'Oswald, sans-serif';
+    color: white;
+}
+#filter{
+    width: 17em;
+    height: 2.5em;
+    justify-self: center;
+    align-self: center;
+    border: solid 2px map-get($map: $theme-colors, $key: secondary);
+    border: none;
+    border-radius: 1.5%;
+}
+#newItem {
+    width: 18em;
+    margin-right: 0.5em;
+}
+#item {
+    height: 2.3em;
+    background-color: map-get($map: $theme-colors, $key: info);
+    font-family: 'Raleway, sans-serif';
+    border: none;
+    border-radius: 5%;
+}
+.delete {
+    border: none;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: map-get($map: $theme-colors, $key: success)
+}
+.formContainer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    background-image: linear-gradient(to right,rgb(226, 106, 106),rgb(159, 243, 159),rgb(102, 175, 235));
+}
+#filter:focus {
+    border: solid rgb(103, 187, 243) 3px;
+}
+@media only screen and (max-width: 600px){
+    .main-header {
+        flex-direction: column;
+        align-self: flex-start;
+    }
+}
