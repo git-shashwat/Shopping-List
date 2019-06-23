@@ -46,7 +46,7 @@ function addItem(e){
 
     //Apply appropriate classes
     li.className = "list-group-item";
-    delBtn.className = "bg-danger btn-sm float-right button";
+    delBtn.className = "bg-danger btn-sm float-right button delete";
     delBtn.style.border = "none";
     //Append textual content into the element
     li.appendChild(document.createTextNode(newItem));
