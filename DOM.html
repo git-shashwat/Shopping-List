@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="DOM.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Shopping List</title>
+</head>
+<body class="body">
+  <div class="main-header">
+    <h1 id="heading">Shopping List</h1>
+    <input type="text" id="filter" placeholder="Search Items...." >
+  </div>
+
+
+<!--Item Addition-->
+<div>
+  <form action="" class="formContainer" id="formElements" autocomplete="off">
+    <input type="text" id="newItem" class="form-control" placeholder="&checkmark;">
+    <input type="submit" value="Add Item" id = 'item'>
+  </form>
+</div>
+<br>
+  <!--Items List-->
+  <div class="container" style="border: none;">
+    <ul class="list-group" id="list">
+      <li class="list-group-item">Add Items...
+        <button class="bg-danger btn-sm float-right button delete">X</button>
+      </li>
+    </ul>
+  </div>
+
+
+
+<script src="dom.js"></script>
+</body>
+</html>

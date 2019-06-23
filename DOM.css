@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap");
+#heading {
+  font-family: 'Oswald, sans-serif';
+  color: white;
+}
+
+#filter {
+  width: 17em;
+  height: 2.5em;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: solid 2px #f1f1f1e3;
+  border: none;
+  border-radius: 1.5%;
+}
+
+#newItem {
+  width: 18em;
+  margin-right: 0.5em;
+}
+
+#item {
+  height: 2.3em;
+  background-color: #3ec1f5;
+  font-family: 'Raleway, sans-serif';
+  border: none;
+  border-radius: 5%;
+}
+
+.delete {
+  border: none;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #28a745;
+}
+
+.formContainer {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e26a6a), color-stop(#9ff39f), to(#66afeb));
+  background-image: linear-gradient(to right, #e26a6a, #9ff39f, #66afeb);
+}
+
+#filter:focus {
+  border: solid #67bbf3 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+/*# sourceMappingURL=DOM.css.map */
