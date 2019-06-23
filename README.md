@@ -11,4 +11,6 @@ This project uses:
 * Bootstrap 4
 * Vanilla JavaScript
 
+Check out here: <https://git-shashwat.github.io/Shopping-List/>
+
 **[Caution]**: The List does not remembers. 😉
