@@ -54,6 +54,8 @@ function addItem(e){
     li.appendChild(delBtn);
     //Append the new list item into DOM
     listItems.appendChild(li);
+    
+    document.getElementById('newItem').value = "";
 }
 
 // removeItem Function
